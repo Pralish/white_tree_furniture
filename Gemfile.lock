@@ -240,6 +240,10 @@ GEM
       addressable (~> 2.8)
       childprocess (~> 5.0)
       logger (~> 1.6)
+    libv8 (3.16.14.19.1)
+    libv8 (3.16.14.19.1-arm-linux)
+    libv8 (3.16.14.19.1-universal-darwin)
+    libv8 (3.16.14.19.1-x86_64-linux)
     lint_roller (1.1.0)
     logger (1.6.6)
     loofah (2.24.0)
@@ -367,6 +371,7 @@ GEM
       i18n
     rdoc (6.13.0)
       psych (>= 4.0.0)
+    ref (2.0.0)
     regexp_parser (2.10.0)
     reline (0.6.0)
       io-console (~> 0.5)
@@ -588,6 +593,9 @@ GEM
     tailwindcss-ruby (3.4.17-x86_64-linux)
     terrapin (1.1.0)
       climate_control
+    therubyracer (0.12.3)
+      libv8 (~> 3.16.14.15)
+      ref
     thor (1.3.2)
     thruster (0.1.12)
     thruster (0.1.12-aarch64-linux)
@@ -643,6 +651,7 @@ DEPENDENCIES
   capybara-screenshot (~> 1.0)
   database_cleaner (~> 2.0)
   debug
+  execjs
   factory_bot (>= 4.8)
   factory_bot_rails
   ffaker (~> 2.13)
@@ -673,6 +682,7 @@ DEPENDENCIES
   sqlite3 (>= 2.1)
   stimulus-rails
   tailwindcss-rails (~> 3.0)
+  therubyracer
   thruster
   turbo-rails
   tzinfo-data

@@ -91,6 +91,3 @@ end
 gem "solidus_stripe", "~> 5.a"
 
 gem "solidus_admin", ">= 0.2"
-
-gem 'execjs'
-gem 'therubyracer'
